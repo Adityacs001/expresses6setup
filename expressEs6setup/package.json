@@ -1,0 +1,25 @@
+{
+  "name": "expresses6setup",
+  "version": "1.0.0",
+  "description": "This is Express setup using es6.simple template to use in other projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server/index.js",
+    "server":"nodemon --watch server --exec babel-node -- server/index.js"
+  },
+  "keywords": [
+    "Express",
+    "Es6"
+  ],
+  "author": "Aditya",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
